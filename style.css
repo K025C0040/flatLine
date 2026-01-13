@@ -66,8 +66,12 @@ img{
     gap: 20pt;
 }
 .mainout{
-    
     width: 50%;
+
+}
+.mainin{
+
+    margin-bottom: 5rem;
     background-color: rgb(67, 64, 64);
 }
 .align-right{
@@ -76,11 +80,11 @@ img{
     margin-left: auto;
 }
 #rightban{
-    width: 12.5%;
+    width: 15%;
     background-color: rgb(221, 221, 41);
 }
 #leftban{
-    width: 12.5%;
+    width: 15%;
     background-color: rgb(221, 221, 41);
 }
 
