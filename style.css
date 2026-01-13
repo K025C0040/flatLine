@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+/*共通部分
+----------------*/
+
+html{
+    font-size: 100%;
+}
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: "Merriweather", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+    line-height: 1.7;
+    color: rgb(186, 168, 240)
+}
+a{
+    text-decoration: none;
+}
+.page-header{
+    background-color: aqua;
+}
+img{
+    max-width: 100%
+}
+.header-img{
+    width: 10%;
+    background-color: aqua;
+}
+.align-centre{
+    text-align: center
+}
+
+.page-header{
+    padding-top: .5rem;
+}
+.logo{
+    width: 210px;
+}
+#header-img{
+    width: 100%;
+    height: 5rem;
+}
+#header_logo_title{
+    position: relative; /* 基準にする */
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+.align-centre{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#content{
+    overflow-wrap: break-word;
+    margin-top: 5rem;
+    text-align: center;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    gap: 20pt;
+}
+.mainout{
+    
+    width: 50%;
+    background-color: rgb(67, 64, 64);
+}
+.align-right{
+    width: 25%;
+    background-color: rgb(100, 237, 237);
+    margin-left: auto;
+}
+#rightban{
+    width: 12.5%;
+    background-color: rgb(221, 221, 41);
+}
+#leftban{
+    width: 12.5%;
+    background-color: rgb(221, 221, 41);
+}
+
+.grid{
+    margin-top: 30px;
+    display: grid;
+    gap:2rem 1.5rem;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+}
+.item img{
+    aspect-ratio: 1/2;
+    object-fit: cover;
+    border-radius: 16px;
+}
+.item p {
+    font-size: .875rem;
+}
