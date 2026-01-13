@@ -14,6 +14,9 @@ body{
     color: rgb(186, 168, 240)
     
 }
+a{
+    text-decoration: none;
+}
 .page-header{
     background-color: aqua;
 }
@@ -82,7 +85,8 @@ img{
 }
 
 .headline{
-    margin-bottom: 30px;
+    position: absolute;
+    top: 15rem;
 }
 
 .grid{
