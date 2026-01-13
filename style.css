@@ -11,7 +11,7 @@ body{
     font-style: normal;
     width: 100%;
     line-height: 1.7;
-    color: rgb(186, 168, 240)
+    color: rgb(236, 255, 193)
     
 }
 a{
@@ -70,22 +70,18 @@ img{
 
 }
 .mainin{
-
     margin-bottom: 5rem;
     background-color: rgb(67, 64, 64);
 }
 .align-right{
-    width: 25%;
+    width: 35%;
     background-color: rgb(100, 237, 237);
     margin-left: auto;
 }
-#rightban{
+.banner{
+    color: rgb(161, 161, 255);
     width: 15%;
-    background-color: rgb(221, 221, 41);
-}
-#leftban{
-    width: 15%;
-    background-color: rgb(221, 221, 41);
+    background-color: rgb(233, 233, 77);
 }
 
 .headline{
@@ -126,4 +122,9 @@ a :visited{
 }
 .returnlink :visited{
     color: rgb(255, 255, 255);
+}
+.long_sentence{
+    text-align: left;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
 }
