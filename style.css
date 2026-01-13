@@ -4,18 +4,15 @@ html{
     font-size: 100%;
 }
 body{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
     font-family: "Merriweather", serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    font-variation-settings:
-    "wdth" 100;
+    width: 100%;
     line-height: 1.7;
     color: rgb(186, 168, 240)
-}
-a{
-    text-decoration: none;
+    
 }
 .page-header{
     background-color: aqua;
@@ -31,6 +28,8 @@ img{
     text-align: center
 }
 
+
+
 .page-header{
     padding-top: .5rem;
 }
@@ -42,7 +41,7 @@ img{
     height: 5rem;
 }
 #header_logo_title{
-    position: relative; /* 基準にする */
+    position: relative;
     display: flex;
     align-items: center;
     height: 50px;
@@ -82,18 +81,41 @@ img{
     background-color: rgb(221, 221, 41);
 }
 
+.headline{
+    margin-bottom: 30px;
+}
+
 .grid{
-    margin-top: 30px;
+    margin-top: 15rem;
     display: grid;
     gap:2rem 1.5rem;
     grid-template-columns: repeat(4, 1fr);
     text-align: center;
 }
+.item{
+    border: solid 3px;
+    border-color: aqua;
+    border-radius: 10px;
+    background-color: rgb(56, 56, 56);
+}
 .item img{
-    aspect-ratio: 1/2;
+    aspect-ratio: 3/1;
     object-fit: cover;
-    border-radius: 16px;
+    border-radius: 5px;
 }
 .item p {
     font-size: .875rem;
+    color: aliceblue;
+}
+a :visited{
+    color: rgb(255, 255, 255);
+}
+.returnlink{
+    color: rgb(230, 60, 60);
+}
+.returnlink :hover{
+    color: rgb(193, 230, 60);
+}
+.returnlink :visited{
+    color: rgb(255, 255, 255);
 }
