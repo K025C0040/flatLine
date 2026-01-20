@@ -1,0 +1,32 @@
+.allwrap{
+    width: 75%;
+    margin-left: 12.5%;
+    border: solid 3px;
+    border-radius: 15px;
+    border-color: yellow;
+    margin-top: 15%;
+    padding: 3%;
+}
+.rowwrap{
+    border: solid 3px;
+    border-radius: 15px;
+    border-color: aqua;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 3rem;
+}
+.bookimg{
+    width: 45%;
+}
+.bookexplain{
+    width: 45%;
+}
+.tobookdetail{
+    width: 28%;
+    background-color: rgb(100, 237, 237);
+    margin-left: auto;
+}

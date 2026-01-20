@@ -23,9 +23,13 @@ a{
 img{
     max-width: 100%
 }
-.header-img{
-    width: 10%;
-    background-color: aqua;
+#header-img-border{
+    width: 100%;
+    background-color: None;
+}
+#header-img{
+    height: 100%;
+    width: 100%;
 }
 .align-centre{
     text-align: center
@@ -70,7 +74,7 @@ img{
 
 }
 .mainin{
-    margin-bottom: 5rem;
+    margin-bottom: 3.5rem;
     background-color: rgb(67, 64, 64);
 }
 .align-right{
@@ -81,8 +85,14 @@ img{
 .banner{
     color: rgb(161, 161, 255);
     width: 15%;
+    height: 100%;
     background-color: rgb(233, 233, 77);
 }
+.side_bn-img{
+    height: 100%;
+    width: 100%;
+}
+
 
 .headline{
     position: absolute;
