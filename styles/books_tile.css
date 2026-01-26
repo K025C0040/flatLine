@@ -31,3 +31,10 @@
     background-color: rgb(100, 237, 237);
     margin-left: auto;
 }
+
+@media screen and (max-width: 768px) {
+    .bookimg{
+    width: 50%;
+    margin-top: 5rem;
+    }
+}
