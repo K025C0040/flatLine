@@ -139,6 +139,10 @@ a :visited{
     padding-right: 1.5rem;
     font-size: 110%;
 }
+
+.logo{
+    width: 25%;
+}
 @media screen and (max-width: 768px) {
     .rightban{
         display: none;
