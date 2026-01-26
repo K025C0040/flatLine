@@ -45,7 +45,7 @@ img{
 }
 #header-img{
     width: 100%;
-    height: 5rem;
+    height: 10rem;
 }
 #header_logo_title{
     position: relative;
@@ -57,6 +57,7 @@ img{
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
+    color: rgb(13, 1, 122);
 }
 #content{
     overflow-wrap: break-word;
@@ -71,6 +72,7 @@ img{
 }
 .mainout{
     width: 50%;
+    margin-top: 6rem;
 
 }
 .mainin{
@@ -84,9 +86,10 @@ img{
 }
 .banner{
     color: rgb(161, 161, 255);
-    width: 15%;
-    height: 100%;
+    width: 240px;
+    height: 50rem;
     background-color: rgb(233, 233, 77);
+    margin-top: 30px;
 }
 .side_bn-img{
     height: 100%;
