@@ -39,6 +39,7 @@ img{
 
 .page-header{
     padding-top: .5rem;
+
 }
 .logo{
     width: 210px;
@@ -143,7 +144,7 @@ a :visited{
     color: rgb(230, 60, 165);
 }
 .returnlink :visited{
-    color: rgb(255, 255, 255);
+    color: rgb(225, 55, 194);
 }
 .long_sentence{
     text-align: left;
@@ -175,3 +176,4 @@ a :visited{
         width: 100%;
     }
 }
+
